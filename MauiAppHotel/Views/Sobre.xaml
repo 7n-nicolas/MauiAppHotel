@@ -11,6 +11,7 @@
             <Label
                 FontAttributes="Bold"
                 FontSize="32"
+                TextColor="LightGoldenrodYellow"
             Text="Sobre"/>
 
             <Label
@@ -27,7 +28,7 @@
             TextColor="Grey"
             Text="2026"/>
 
-        <Button Text="voltar" Clicked="Button_Clicked"/>
+        <Button BackgroundColor="Salmon" Text="voltar" Clicked="Button_Clicked"/>
 
 
     </VerticalStackLayout>

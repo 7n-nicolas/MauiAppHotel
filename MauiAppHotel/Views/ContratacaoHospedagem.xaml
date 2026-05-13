@@ -72,9 +72,9 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="avançar"/>
-                
-                <Button Clicked="Button_Clicked" Margin="0,20,0,0" Text="Sobre"/>
+                <Button BackgroundColor="GreenYellow" Text="avançar"/>
+
+                <Button Clicked="Button_Clicked" Margin="0,20,0,0" Text="Sobre" BackgroundColor="LightGoldenrodYellow"/>
 
             </VerticalStackLayout>
         </Frame>
