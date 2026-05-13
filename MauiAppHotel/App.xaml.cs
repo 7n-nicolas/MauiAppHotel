@@ -9,7 +9,7 @@ namespace MauiAppHotel
             InitializeComponent();
 
             // É necessário definir a MainPage para o app abrir algo
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
