@@ -11,7 +11,7 @@
             <Label
                 FontAttributes="Bold"
                 FontSize="32"
-                TextColor="LightGoldenrodYellow"
+                TextColor="#22C55E"
             Text="Sobre"/>
 
             <Label
@@ -20,15 +20,20 @@
         <Label
             FontSize="18"
             FontAttributes="Bold"
-            TextColor="DarkCyan"
+            TextColor="#4ADE80"
             Text="Nicolas7N"/>
+
+        <Label
+            FontSize="14"
+            Text="Agendas 13, 14 - Desenvolvimento de Sistemas II
+            Etec Getúlio Vargas – Centro Paula Souza (CPS) "/>
 
         <Label
             FontSize="12"
             TextColor="Grey"
             Text="2026"/>
 
-        <Button BackgroundColor="Salmon" Text="voltar" Clicked="Button_Clicked"/>
+        <Button BackgroundColor="#2B3A26" Text="voltar" Clicked="Button_Clicked" TextColor="White"/>
 
 
     </VerticalStackLayout>
